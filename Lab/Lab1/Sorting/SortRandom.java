@@ -15,15 +15,4 @@ public class SortRandom
     {
         rand = new Random();
     }
-    
-    /**
-     * Returns a random integer in { min, ..., min + range - 1 }.
-     * 
-     */
-    public int rnd(int min, int range)
-    {
-        return min + rand.nextInt(range);
-    }
-
-
 }
