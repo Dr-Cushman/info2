@@ -22,6 +22,15 @@ public class Main implements Tools, Randomness, Arithmetic
      */
     public void run(String[] args)
     {
-        // YOUR CODE GOES HERE!
+        // Test the log method
+        int logResult = Arithmetic.log(16);
+        System.out.println("log(16) = " + logResult); // Expected: 4
+
+        // Test the isPrime method
+        boolean isPrimeResult = Arithmetic.isPrime(17);
+        System.out.println("isPrime(17) = " + isPrimeResult); // Expected: true
+
+        isPrimeResult = Arithmetic.isPrime(18);
+        System.out.println("isPrime(18) = " + isPrimeResult); // Expected: false>
     }
 }

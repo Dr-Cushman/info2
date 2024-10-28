@@ -13,14 +13,6 @@ public class SortTest implements Randomness
     private ArrayList<SortAlg> algs;
 
     /**
-     * Returns (for n > 0) ceiling(log2(n)), i.e. the minimal l >= 0 such that n <= 2 ^ l.
-     */
-    private static int log(int n)
-    {
-        return (int) Math.ceil(Math.log(n) / Math.log(2));
-    }
-
-    /**
      * Constructor
      */
     public SortTest()
@@ -134,6 +126,6 @@ public class SortTest implements Randomness
 
     public static void main(String[] args){
         SortTest test = new SortTest();
-        
+
     }
 }
